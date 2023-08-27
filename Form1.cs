@@ -386,7 +386,8 @@ namespace PageComparison
             Button button = new Button();
             button.Text = text;
             button.BackColor = Color.LightBlue;
-            button.Font = new Font("Microsoft YaHei", 10);
+            //button.Font = new Font("Microsoft YaHei", 15);
+            button.Font = new Font("¿¬Ìå", 12, FontStyle.Regular); 
             button.UseVisualStyleBackColor = false;
             button.Dock = DockStyle.Fill;
             button.Click += clickHandler;
